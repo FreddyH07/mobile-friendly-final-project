@@ -1,12 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  /* background-image: url(/img/cool1.jpg); */
-  background-color: black;
+  background-image: url(/img/cool1.jpg);
+  /* background-color: black; */
   background-size: contain;
   /* background-repeat: repeat-y; */
 }
 .parent {
-  margin: 0 80px;
-  width: 92%;
+  margin: 0 90px;
+  width: 85%;
   display: inline-block;
 }
 
@@ -24,6 +29,11 @@ body {
 .LOGO {
   height: 40px;
   
+}
+
+/* NavBar Logo Position */
+.navlogoposition {
+  justify-content: center
 }
 
 
@@ -57,11 +67,12 @@ ul {
     background-color: rgb(75, 206, 211);
   }
 
-  /* NavBar Logo Position */
-  .navlogoposition {
-    justify-items: center;
+  .carouselbox {
+    justify-content: center;
+    width: 50%;
+    height: 100px;
+    padding: 10px 10px;
   }
-
 
 /* Index Hompage Pic Section1 */
 .section1 {
@@ -141,7 +152,6 @@ ul {
   height: 150px;
   width: 90%;
   color: aqua;
-  margin-left: 80px;
   margin-top: 525px;
   border-top-style: double;
   text-decoration: none;
